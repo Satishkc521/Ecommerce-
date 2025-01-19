@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    header{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    img{
+        width: 200px;
+        height: auto;
+    }
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+     .form{
+         background-color: #ffffff;
+        padding: 40px 40px;
+        box-shadow:0px 4px 8px rgb(0, 0, 0,0.2);
+        width: 300px;
+     }
+     .form label{
+        display: block;
+        margin: 8px;
+        font-weight: bold;
+     }
+     .form ::placeholder{
+        text-align: center
+     }
+     .form input[type="text"],
+        .form input[type="email"],
+        .form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form button{
+            width: 200px;
+            padding: 10px;
+            background-color:blue;
+            margin-bottom: 2%;
+            color: white;
+        }
+        .form button:hover{
+            background-color: red;
+        }
+        .form button a{
+            color:white;
+        }
+
+</style>
+
+<body>
+        
+    <div class="form">
+            <header>
+            <img src="swift.png" alt="center images">
+            </header>
+    <form>
+            <h1>Login</h1>
+            <section id="form">
+            <label for="name">Full Name/Email</label>
+            <input type="text" id="Name" placeholder="Enter your name/email" >
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" >
+            <br>
+            <button type="button" onclick="myfunction()"><a href="success.html">Login</a></button>
+    </form>
+</div>
+</body>    
+</body>
+</html>
